@@ -24,7 +24,8 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'S3',
-      items: ['s3/static-site'],
+      items: ['s3/static-site',
+      ],
     },
 
     // You can add more categories here, e.g. S3, EKS, IAM…
