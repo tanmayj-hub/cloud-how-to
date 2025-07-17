@@ -16,9 +16,9 @@ const config: Config = {
   },
 
   // GitHub Pages deployment settings -----------------------------------------
-  url: 'https://<your-github-user>.github.io', // e.g. https://tanmayj-hub.github.io
+  url: 'https://tanmayj-hub.github.io', // e.g. https://tanmayj-hub.github.io
   baseUrl: '/cloud-how-to/',                   // repo name with leading & trailing slashes
-  organizationName: '<your-github-user>',      // e.g. tanmayj-hub
+  organizationName: 'tanmayj-hub',      // e.g. tanmayj-hub
   projectName: 'cloud-how-to',                 // repo name
 
   onBrokenLinks: 'throw',
@@ -37,7 +37,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/<your-github-user>/cloud-how-to/blob/main/', // edit link in every page
+            'https://github.com/tanmayj-hub/cloud-how-to/blob/main/', // edit link in every page
         },
         // Disable blog for now; flip to true later if you want an internal blog.
         blog: false,
@@ -65,7 +65,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/<your-github-user>/cloud-how-to',
+          href: 'https://github.com/tanmayj-hub/cloud-how-to',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/<your-github-user>/cloud-how-to',
+              href: 'https://github.com/tanmayj-hub/cloud-how-to',
             },
           ],
         },
