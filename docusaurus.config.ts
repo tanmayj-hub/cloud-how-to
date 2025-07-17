@@ -17,11 +17,13 @@ const config: Config = {
 
   // GitHub Pages deployment settings -----------------------------------------
   url: 'https://tanmayj-hub.github.io', // e.g. https://tanmayj-hub.github.io
-  baseUrl: '/cloud-how-to/',                   // repo name with leading & trailing slashes
+  baseUrl: '/cloud-how-to/',            // repo name with leading & trailing slashes
   organizationName: 'tanmayj-hub',      // e.g. tanmayj-hub
-  projectName: 'cloud-how-to',                 // repo name
+  projectName: 'cloud-how-to',          // repo name
 
-  onBrokenLinks: 'throw',
+  // ───────────────────────────────────────────────────────────────────────────
+  // Allow drafts / missing links during early authoring phase
+  onBrokenLinks: 'warn',                // ⬅️  was 'throw'
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
